@@ -56,7 +56,7 @@ $(document).ready(function () {
         autoplay: true,
         autoplayTimeOut: 1000,
         autoplayHoverPause: true,
-        autoplaySpeed: 150,
+        autoplaySpeed: 650,
         dots: true,
         responsive: {
             0: {
@@ -71,6 +71,11 @@ $(document).ready(function () {
                 items: 3,
                 nav: false
             }
-        }
+        },
+        slideSpeed: 200,
+        paginationSpeed: 0,
+        singleItem: true,
+        navigation: true,
+        scrollPerPage: true
     });
 });
